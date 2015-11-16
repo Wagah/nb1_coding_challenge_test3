@@ -1,0 +1,32 @@
+<html ng-app="MyApp">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width initial-scale=1">
+	<head>
+		<title>code challenge</title>
+		<link rel="stylesheet" href="main.css">
+		<!-- <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+		<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
+		<script src="angular.min.js"></script>
+		<script src="js/appcontroller.js"></script>
+	</head>
+		<body>
+
+<section class="row">
+		<h1 class="text-center">Profile</h1>
+			<div class="col-sm-12" ng-controller="myCars">
+			<input border = "text" ng-model="test"/>
+				<table border="1"width="80%">				
+					<tr ng-repeat = "x in cars | filter:test">
+						<td>{{x.name}}</td>
+						<td>{{x.age}}</td>
+						<td>{{x.img_url}}</td>
+						
+			<!-- <td><img width="50px" height="50px"ng-src="{{x.image}}"/></td> -->
+					</tr>
+				</table>		
+			</div>
+</section>
+
+</body>
+</html>

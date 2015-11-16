@@ -1,0 +1,97 @@
+#pitch {
+
+	background-image: url('../images/Style.jpg');
+	background-repeat: no-repeat; 
+	padding:150px 10px;
+	background-size: cover;
+	background-position: center;
+	font-family: Volkhov;
+	font-color:red;
+	font-size: 40;
+
+}
+
+#padding {
+
+	padding: 0px 40px 0px 40px;
+}
+
+.container .jumbotron
+.container-fluid .jumbtron{
+	border-radius: 0px;
+
+}
+#profile{
+	padding-right: 20px
+	padding-left:20px;
+
+}
+
+#span {
+	background-color:"red";
+}
+#pitch h1 {
+		font-size: 60;
+		color:#fffccc;
+	}
+
+#footer{
+	background-color:red;
+	font-style: Alex Brush;
+	font-color: black;
+	font-size: 30px;
+	text-align: center;
+}
+#topMenu{
+	/*background-color: purple;*/
+	font-family: Magnus Cederholm; 
+	font-weight: 100%;
+	font-size: 20;
+}
+
+#button, #activity{
+		padding: 5px;
+		text-align:center;
+		background-color: #e5eecc;
+		border: solid 1px #c3c3c3;
+}
+#activity {
+		padding: 50px
+		display:none;
+}
+#panel1, #flip{
+	padding: 5px;
+    text-align: center;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+}
+#panel1 {
+	padding: 50px;
+    display: none;
+}
+
+#caption1{
+		text-align: center;
+		font-size: 40px;
+		font-color: purple;
+	}
+
+#caption2{
+		text-align: center;
+		font-size: 40px;
+		font-color: green;
+}
+#caption3{
+		text-align: center;
+		font-size: 40px;
+		font-color: red;
+	}
+/*#container{
+	background-color: #yyyvv;
+	background-image: url(img_flwr.gif), url(paper.gif);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    padding: 15px;
+}*/
+
+}
