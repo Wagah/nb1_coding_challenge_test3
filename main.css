@@ -48,39 +48,3 @@
 #white {
 		background-color:"white";
 }
-#panel1, #flip{
-	padding: 5px;
-    text-align: center;
-    background-color: #e5eecc;
-    border: solid 1px #c3c3c3;
-}
-#panel1 {
-	padding: 50px;
-    display: none;
-}
-
-#caption1{
-		text-align: center;
-		font-size: 40px;
-		font-color: purple;
-	}
-
-#caption2{
-		text-align: center;
-		font-size: 40px;
-		font-color: green;
-}
-#caption3{
-		text-align: center;
-		font-size: 40px;
-		font-color: red;
-	}
-/*#container{
-	background-color: #yyyvv;
-	background-image: url(img_flwr.gif), url(paper.gif);
-    background-position: right bottom, left top;
-    background-repeat: no-repeat, repeat;
-    padding: 15px;
-}*/
-
-}
